@@ -1,0 +1,5 @@
+owner: exeln
+repo: htsadminTool
+provider: github
+releaseType: release
+updaterCacheDirName: htsadmintool-updater

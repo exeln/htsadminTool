@@ -7,9 +7,9 @@ publish:
     owner: exeln
     repo: htsadminTool
     releaseType: release
-win:
-  target: nsis
 mac:
   target: dmg
+win:
+  target: portable
 files: []
 electronVersion: 25.2.0
