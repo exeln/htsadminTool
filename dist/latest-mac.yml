@@ -1,8 +1,8 @@
 version: 1.0.0
 files:
   - url: htsadminTool-1.0.0.dmg
-    sha512: F6Vt/RX2coPlenTo52pD0i0FL7HIWXkzsCN7hD/tDf79qSjYvQxNopiQcvglh+d5RU9Gm+zOZPkSIGFYPYI9PQ==
-    size: 101781911
+    sha512: 5kN0is4cCM5KrLDV35akRWwNB4PcAc4oxZe5pwgNoMIUEabQ/YUmzSr+UJEZv2NzCiw4IMVoW8A0imVzOCsBOQ==
+    size: 101782062
 path: htsadminTool-1.0.0.dmg
-sha512: F6Vt/RX2coPlenTo52pD0i0FL7HIWXkzsCN7hD/tDf79qSjYvQxNopiQcvglh+d5RU9Gm+zOZPkSIGFYPYI9PQ==
-releaseDate: '2023-07-04T20:47:17.563Z'
+sha512: 5kN0is4cCM5KrLDV35akRWwNB4PcAc4oxZe5pwgNoMIUEabQ/YUmzSr+UJEZv2NzCiw4IMVoW8A0imVzOCsBOQ==
+releaseDate: '2023-07-04T21:31:57.093Z'
