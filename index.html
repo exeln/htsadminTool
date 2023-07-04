@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HTS ADMIN TOOL</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.16/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100">
+<div id="mainContainer" class="container mx-auto px-4">
+    <div class="text-center">
+        <h1 class="my-2 text-3xl font-bold">HTS ADMIN v1.0.1</h1>
+        <h2 class="my-2 text-2xl font-bold">Login</h2>
+        <form id="loginForm" class="my-4">
+            <label class="block" for="email">Email:</label>
+            <input class="w-full p-2 my-2 border rounded" type="email" id="email" required>
+
+            <label class="block" for="password">Password:</label>
+            <input class="w-full p-2 my-2 border rounded" type="password" id="password" required>
+
+            <label class="block" id="mfaLabel" style="display: none;" for="mfaCode">2FA Code:</label>
+            <input class="w-full p-2 my-2 border rounded" type="text" id="mfaCode" style="display: none;">
+
+            <button class="px-4 py-2 my-2 bg-blue-500 text-white rounded" type="submit">Login</button>
+        </form>
+
+        <div id="reportFinder" style="display: none;">
+            <h2 class="my-2 text-2xl font-bold">Spreadsheet Downloader</h2>
+            <form id="reportForm" class="my-4">
+                <label class="block" for="startDate">Start Date (X/XX/XXXX)</label>
+                <input class="w-full p-2 my-2 border rounded" type="date" id="startDate">
+
+                <label class="block" for="endDate">End Date (X/XX/XXXX)</label>
+                <input class="w-full p-2 my-2 border rounded" type="date" id="endDate">
+
+                <button class="px-4 py-2 my-2 bg-blue-500 text-white rounded" type="submit">Download Spreadsheet!</button>
+            </form>
+        </div>
+    </div>
+</div>
+<script src="main.js"></script>
+</body>
+</html>

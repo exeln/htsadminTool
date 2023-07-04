@@ -1,0 +1,15 @@
+directories:
+  output: dist
+  buildResources: build
+appId: com.hts-admin-tool
+publish:
+  - provider: github
+    owner: exeln
+    repo: htsadminTool
+    releaseType: release
+win:
+  target: nsis
+mac:
+  target: dmg
+files: []
+electronVersion: 25.2.0
